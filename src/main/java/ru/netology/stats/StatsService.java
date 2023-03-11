@@ -71,7 +71,11 @@ public class StatsService {
         long average = averageCalculate(deals);
         int aboveAverage = 0;
         for (int deal : deals) {
+<<<<<<< HEAD
             if (deal < average) {
+=======
+            if (deal > average) {
+>>>>>>> 5687815 (Initial commit)
                 aboveAverage += 1;
             }
         }
